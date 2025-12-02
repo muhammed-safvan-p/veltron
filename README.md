@@ -1,42 +1,97 @@
-# Veltron E-commerce 🛒
+Veltron E-commerce 🛒
 
-Veltron is a full-stack **eCommerce web application** built using **Node.js, Express.js, EJS, and MongoDB**.  
-It provides **User, Vendor, and Admin roles** with powerful features like product management, cart, orders, vendor approval, and secure payment integration.
+Veltron is a full-stack multi-role eCommerce platform built using Node.js, Express.js, EJS, and MongoDB following the MVC architecture.
+The application supports User, Vendor, and Admin roles, delivering a complete shopping and management experience with secure payments, analytics, and product workflows.
 
----
+🚀 Features
+👤 User
 
-## 🚀 Features
+Signup / Login with authentication
 
-### 👤 User
+Browse products with multiple color variants
 
-- Signup / Login with authentication
-- Browse products with multiple color variants
-- Add to cart, wishlist, and checkout
-- Apply coupons, track orders, and request returns
-- Wallet system with transaction history
+Add to cart, wishlist, and checkout
 
-### 🛍 Vendor
+Three payment options:
 
-- Vendor signup and login
-- Add and manage products (with color & stock)
-- Track orders and sales
-- Vendor approval by Admin
+Cash on Delivery (COD)
 
-### 🛡 Admin
+Wallet Payment
 
-- Dashboard with analytics (sales, orders, revenue)
-- Manage users, vendors, products, and orders
-- Approve/reject vendor requests
-- Coupon management & banner management
-- Secure payment monitoring
+Razorpay Online Payment
 
----
+Coupon system for discounts
 
-## 🛠 Tech Stack
+Referral system with wallet credit rewards
 
-- **Frontend:** EJS, CSS, JavaScript
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Architecture:** MVC
+Track orders, request returns, and place cancellations
 
----
+Wallet with transaction history
+
+Profile & address management
+
+🛍 Vendor
+
+Vendor signup and login
+
+Add and manage products (with variants & stock control)
+
+Order tracking for vendor-specific products
+
+Dashboard with analytics using Chart.js
+
+Sales Report:
+
+Filter by date range
+
+Export as PDF
+
+Export as Excel (.xlsx)
+
+Vendor approval workflow managed by Admin
+
+🛡 Admin
+
+Dashboard with platform analytics (sales, revenue, orders)
+
+Manage users, vendors, products, and orders
+
+Approve or reject vendor requests
+
+Coupon and banner management
+
+Monitor payments, returns, cancellations, and wallet usage
+
+Full platform supervision with role-based access
+
+🛠 Tech Stack
+
+Frontend: EJS, CSS, JavaScript
+
+Backend: Node.js, Express.js
+
+Database: MongoDB
+
+Architecture: MVC
+
+Charts: Chart.js
+
+Payment Gateway: Razorpay
+
+Reports: PDF & Excel export
+
+📂 Project Structure
+veltron/
+│
+├── src/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── views/
+│   ├── middlewares/
+│   ├── helpers/
+│   └── app.js
+│
+├── public/
+├── package.json
+└── README.md
